@@ -9,7 +9,9 @@ a {
   color: #3f8abf;
   text-decoration: none; }
   a:hover {
-    color: #65a1cc; }
+    color: #65a1cc;
+    cursor: pointer;
+  }
 
 .list {
   background: #fff;
@@ -39,7 +41,9 @@ a {
         color: #ed5a5a;
         margin-left: 10px; }
         .list .item .actions .delete:hover {
-          color: #f28888; }
+          color: #f28888;
+          cursor: pointer;
+         }
     .list .item.editing .actions {
       margin-top: 17px; }
   .list .edited label:after {
