@@ -9,9 +9,7 @@ a {
   color: #3f8abf;
   text-decoration: none; }
   a:hover {
-    color: #65a1cc;
-    cursor: pointer;
-  }
+    color: #65a1cc; }
 
 .list {
   background: #fff;
@@ -41,10 +39,8 @@ a {
         color: #ed5a5a;
         margin-left: 10px; }
         .list .item .actions .delete:hover {
-          color: #f28888;
-          cursor: pointer;
-         }
-    .list .item.editing .actions {
+          color: #f28888; }
+    .list .item.editing-item .actions {
       margin-top: 17px; }
   .list .edited label:after {
     content: " edited";
